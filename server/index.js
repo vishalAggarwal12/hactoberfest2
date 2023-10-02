@@ -9,10 +9,7 @@ const cors = require("cors");
 
 
 const app = express(); 
-app.use(express.json());
-app.get("/",(req,res)=>{ 
-res.json("Hello Its A Backend")
-})
+
 
 //Geting from the books database
 app.get("/books",(req,res)=>{
