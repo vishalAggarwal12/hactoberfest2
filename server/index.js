@@ -6,12 +6,7 @@ const cors = require("cors");
 // else the difference is in sending the data from backend to the database 
 //we have to make the different query for performing the crud operation
 
-const db = mysql.createConnection({
-    host:"localhost",
-        user:"root",
-        password:"macbook air",
-        database:"books"
-})
+
 
 const app = express(); 
 app.use(express.json());
